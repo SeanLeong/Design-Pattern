@@ -12,9 +12,13 @@ import Behavior.Command.Command.*;
 public class Client {
     public static void main(String[] args) {
         DBController dbController = new DBController();
+        //执行者
         DB db1 = new DB("数据库1");
         DB db2 = new DB("数据库2");
 
+        /*
+            客户端给controller发出指令，并指定具体的执行者
+         */
         System.out.println("====================excute======================");
         //插入
         dbController.excute(new InsertDBCommand(db1, "a", "b", "c"));
