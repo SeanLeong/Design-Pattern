@@ -1,4 +1,4 @@
-package Structure.Bridge;
+package Structure.Bridge.Brand;
 
 /**
  * @ClassName: Apple

@@ -1,5 +1,8 @@
 package Structure.Bridge;
 
+import Structure.Bridge.Brand.Apple;
+import Structure.Bridge.Brand.HuaWei;
+
 /**
  * @ClassName: Client
  * @Description:
